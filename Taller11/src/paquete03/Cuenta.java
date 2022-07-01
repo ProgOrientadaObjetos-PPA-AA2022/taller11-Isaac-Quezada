@@ -16,4 +16,10 @@ public class Cuenta {
     public double valorCancelar;
     public  double subtotal;
     public double iva ;
+    
+    public Cuenta(String nombreC, double valorC, int i){
+        nombreCliente = nombreC;
+        valorCancelar = valorC;
+        iva = i;
+    }
 }
